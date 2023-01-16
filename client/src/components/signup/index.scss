@@ -1,0 +1,31 @@
+.signup-container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    overflow: hidden;
+    border-radius: 15px;
+}
+
+.signup-design-container {
+    background-color: rgb(156, 146, 32);
+    box-shadow: 10px -10px -20px 10px rgb(156 146 32 /30%);
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center
+}
+
+.signup-content-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 20px;    
+}
+
+.smooth {
+    text-decoration: none;
+}

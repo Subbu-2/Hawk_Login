@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  font-family: 'roboto', Space-Grotesk !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #1a1a1a;
+  overflow: scroll;
+  overflow-x: hidden;
+}
+
+::-webkit-scrollbar{
+  width:10px
+}
+
+::-webkit-scrollbar-track{
+  background:  rgba(0 0 0 / 30%);
+}
+::-webkit-scrollbar-thumb{
+  background:  rgba(0 0 0 / 80%);
+  border-radius: 10px;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
